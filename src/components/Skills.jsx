@@ -26,11 +26,13 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <div
               key={index}
-              tabIndex={0} // keyboard focusable
-              className="flex flex-col items-center justify-center p-6 bg-gray-800 rounded-xl shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-yellow-500/50 focus:scale-105 focus:shadow-yellow-500/50"
+              className="flex flex-col items-center justify-center p-6 
+                         bg-gray-900 rounded-xl shadow-lg 
+                         transform transition duration-300 
+                         hover:scale-105 hover:shadow-yellow-400/40"
             >
               <div className="text-5xl sm:text-6xl mb-4">{skill.icon}</div>
-              <h3 className="text-lg font-semibold">{skill.name}</h3>
+              <h3 className="text-lg font-semibold text-gray-200">{skill.name}</h3>
             </div>
           ))}
         </div>
