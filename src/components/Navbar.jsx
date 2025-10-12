@@ -42,7 +42,7 @@ function Navbar() {
 
         {/* Resume Button - Right Side */}
         <div className="flex-1 justify-end flex">
-          <a href="#resume" className="btn btn-md rounded-full text-lg uppercase font-bold hover:bg-gray-300 hover:text-black">Resume</a>
+          <a href="#resume" className="btn btn-md rounded-full text-lg uppercase font-bold  text-amber-400 hover:bg-amber-400 hover:text-black">Resume</a>
         </div>
       </div>
 
