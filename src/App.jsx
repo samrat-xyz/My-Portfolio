@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from './components/Navbar';
-import Hero from './components/Hero';
-import About from './components/About';
-import Skills from './components/Skills';
+import About from './components/About/About';
+import Hero from './components/Hero/Hero';
+import Navbar from './components/Navbar/Navbar';
+import Skills from './components/Skills/Skills';
 
 
 function App() {

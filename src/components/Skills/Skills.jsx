@@ -24,7 +24,7 @@ const Skills = () => {
     <section id="skills" className="text-white py-16 px-6">
       <div className="max-w-6xl mx-auto text-center">
         {/* Heading */}
-        <h2 className="text-4xl sm:text-5xl font-bold mb-12 tracking-widest">
+        <h2 className="text-4xl lg:text-5xl font-bold mb-12 tracking-widest">
           MY <span className="text-yellow-400">SKILLS</span>
         </h2>
 

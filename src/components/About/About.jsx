@@ -8,7 +8,7 @@ const About = () => {
       className="min-h-screen mt-4 text-white flex flex-col justify-center items-center px-6 md:px-12 lg:px-12 py-12 "
     >
       {/* Heading */}
-      <h2 className="text-4xl sm:text-5xl font-bold mb-10 text-center tracking-widest">
+      <h2 className="text-4xl lg:text-5xl font-bold mb-10 text-center tracking-widest">
         ABOUT <span className="text-yellow-400">ME</span>
       </h2>
 
