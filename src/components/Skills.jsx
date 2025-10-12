@@ -1,6 +1,12 @@
 import React from "react";
-import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs } from "react-icons/fa";
-import { SiTailwindcss, SiFirebase } from "react-icons/si";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJsSquare,
+  FaReact,
+  FaNodeJs,
+} from "react-icons/fa";
+import { SiTailwindcss, SiFirebase, SiMongodb } from "react-icons/si"; // ✅ MongoDB icon added
 
 const skills = [
   { name: "HTML", icon: <FaHtml5 className="text-orange-500" /> },
@@ -9,6 +15,7 @@ const skills = [
   { name: "JavaScript", icon: <FaJsSquare className="text-yellow-400" /> },
   { name: "React", icon: <FaReact className="text-cyan-300" /> },
   { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
+  { name: "MongoDB", icon: <SiMongodb className="text-green-400" /> }, // ✅ Added MongoDB
   { name: "Firebase", icon: <SiFirebase className="text-yellow-500" /> },
 ];
 
