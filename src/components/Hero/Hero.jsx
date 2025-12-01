@@ -43,7 +43,7 @@ function Hero() {
       {/* Social Icons */}
       <div className="flex gap-6 text-5xl">
         <a
-          href="https://linkedin.com"
+          href="https://www.linkedin.com/in/md-samrat0/"
           target="_blank"
           rel="noreferrer"
           className="hover:text-cyan-400 transition transform hover:scale-110 duration-300"
@@ -51,7 +51,7 @@ function Hero() {
           <FaLinkedin />
         </a>
         <a
-          href="https://github.com"
+          href="https://github.com/samrat-xyz"
           target="_blank"
           rel="noreferrer"
           className="hover:text-gray-300 transition transform hover:scale-110 duration-300"
@@ -59,7 +59,7 @@ function Hero() {
           <FaGithub />
         </a>
         <a
-          href="https://facebook.com"
+          href="https://www.facebook.com/ew.r.asif.507079"
           target="_blank"
           rel="noreferrer"
           className="hover:text-blue-500 transition transform hover:scale-110 duration-300"
