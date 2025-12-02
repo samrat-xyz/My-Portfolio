@@ -1,7 +1,7 @@
 import React from "react";
 import { FaLinkedin, FaGithub, FaFacebook } from "react-icons/fa";
 import { Typewriter } from "react-simple-typewriter";
-import profileImg from "../../assets/me.jpg";
+import profileImg from "../../assets/pic1.jpeg";
 
 function Hero() {
   return (
