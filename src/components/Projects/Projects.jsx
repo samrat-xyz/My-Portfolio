@@ -45,7 +45,7 @@ function Projects() {
       name: "ClothMania",
       small_summary:
         "A fashion e-commerce website with cart, checkout and user auth.",
-      stacks: ["Next.js", "Express", "MongoDB"],
+      stacks: ["Next.js", "Express", "MongoDB","Firebase Auth"],
       live_link: "https://cloth-mania-vert.vercel.app/",
       repo: "https://github.com/samrat-xyz/Cloth-Mania",
       image:
