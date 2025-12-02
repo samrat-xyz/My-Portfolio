@@ -10,7 +10,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="min-h-screen mt-4 text-white flex flex-col justify-center items-center px-6 md:px-12 lg:px-32 py-12"
+      className="min-h-screen  text-white flex flex-col justify-center items-center px-6 md:px-12 lg:px-32 py-12"
     >
       {/* Heading */}
       <motion.h2
