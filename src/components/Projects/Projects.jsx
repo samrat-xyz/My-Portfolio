@@ -45,7 +45,7 @@ function Projects() {
       name: "ClothMania",
       small_summary:
         "A fashion e-commerce website with cart, checkout and user auth.",
-      stacks: ["React", "Express", "Stripe", "MongoDB"],
+      stacks: ["Next.js", "Express", "MongoDB"],
       live_link: "https://cloth-mania-vert.vercel.app/",
       repo: "https://github.com/samrat-xyz/Cloth-Mania",
       image:
@@ -55,19 +55,24 @@ function Projects() {
 
   // Map stack names to icons
   const stackIcons = {
-    React: <FaReact size={20} className="text-cyan-400" />,
-    HTML: <FaHtml5 size={20} className="text-orange-500" />,
-    CSS: <FaCss3 size={20} className="text-blue-500" />,
-    Tailwind: <SiTailwindcss size={20} className="text-teal-400" />,
-    DaisyUI: <SiFirebase size={20} className="text-yellow-400" />,
-    "Next.js": <SiNextdotjs size={20} />,
-    JavaScript: <SiJavascript size={20} className="text-yellow-300" />,
-    Node: <FaNodeJs size={20} className="text-green-500" />,
-    Express: <SiExpress size={20} />,
-    MongoDB: <SiMongodb size={20} className="text-green-400" />,
-    "Firebase Auth": <SiFirebase size={20} className="text-yellow-400" />,
-    Stripe: <SiStripe size={20} className="text-indigo-400" />,
-  };
+  React: <FaReact size={20} className="text-cyan-400" />,
+  HTML: <FaHtml5 size={20} className="text-orange-500" />,
+  CSS: <FaCss3 size={20} className="text-blue-500" />,
+  Tailwind: <SiTailwindcss size={20} className="text-teal-400" />,
+  DaisyUI: <SiFirebase size={20} className="text-yellow-400" />,
+  
+  // ✅ Next.js icons (support both variations)
+  "Next.js": <SiNextdotjs size={20} className="text-white" />,
+  NextJs: <SiNextdotjs size={20} className="text-white" />,
+
+  JavaScript: <SiJavascript size={20} className="text-yellow-300" />,
+  Node: <FaNodeJs size={20} className="text-green-500" />,
+  Express: <SiExpress size={20} />,
+  MongoDB: <SiMongodb size={20} className="text-green-400" />,
+  "Firebase Auth": <SiFirebase size={20} className="text-yellow-400" />,
+  Stripe: <SiStripe size={20} className="text-indigo-400" />,
+};
+
 
   return (
     <section id="projects" className="max-w-6xl mx-auto py-14 text-white px-4">
