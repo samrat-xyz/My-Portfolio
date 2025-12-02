@@ -46,7 +46,7 @@ function Hero() {
           href="https://www.linkedin.com/in/md-samrat0/"
           target="_blank"
           rel="noreferrer"
-          className="hover:text-cyan-400 transition transform hover:scale-110 duration-300"
+          className="hover:text-yellow-400 transition transform hover:scale-110 duration-300"
         >
           <FaLinkedin />
         </a>
@@ -54,7 +54,7 @@ function Hero() {
           href="https://github.com/samrat-xyz"
           target="_blank"
           rel="noreferrer"
-          className="hover:text-gray-300 transition transform hover:scale-110 duration-300"
+          className="hover:text-yellow-400 transition transform hover:scale-110 duration-300"
         >
           <FaGithub />
         </a>
@@ -62,7 +62,7 @@ function Hero() {
           href="https://www.facebook.com/ew.r.asif.507079"
           target="_blank"
           rel="noreferrer"
-          className="hover:text-blue-500 transition transform hover:scale-110 duration-300"
+          className="hover:text-yellow-400 transition transform hover:scale-110 duration-300"
         >
           <FaFacebook />
         </a>
