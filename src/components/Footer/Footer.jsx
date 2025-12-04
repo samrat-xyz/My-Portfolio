@@ -41,7 +41,7 @@ export default function Footer() {
         </div>
 
         {/* Bottom Text */}
-        <p className="text-2xl md:text-3xl font-bold  text-yellow-400">
+        <p className="text-2xl md:text-3xl font-bold  text-yellow-400 uppercase">
            Made with <IoHeart className="inline"/> by Samrat.
         </p>
       </motion.div>
