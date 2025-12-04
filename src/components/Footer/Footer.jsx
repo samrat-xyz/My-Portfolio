@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
+import { IoHeart } from "react-icons/io5";
 
 export default function Footer() {
   const fadeUp = {
@@ -40,8 +41,8 @@ export default function Footer() {
         </div>
 
         {/* Bottom Text */}
-        <p className="text-3xl font-bold tracking-wider text-yellow-400">
-           Made with by Samrat.
+        <p className="text-3xl font-bold  text-yellow-400">
+           Made with <IoHeart className="inline"/> by Samrat.
         </p>
       </motion.div>
     </footer>

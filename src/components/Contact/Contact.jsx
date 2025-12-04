@@ -10,9 +10,7 @@ export default function Contact() {
   };
 
   return (
-    <div
-    id="contact"
-    className="min-h-screen  text-white px-6 py-20">
+    <div id="contact" className="min-h-screen  text-white px-6 py-20">
       {/* HEADER */}
       <motion.h2
         variants={fadeUp}
@@ -42,13 +40,18 @@ export default function Contact() {
             anytime. Stay connected!
           </p>
 
-         
           {/* SOCIAL ICONS */}
           <div className="flex gap-6 text-3xl mt-4">
             {[
-              { icon: <FaFacebook />, link: "https://www.facebook.com/ew.r.asif.507079" },
+              {
+                icon: <FaFacebook />,
+                link: "https://www.facebook.com/ew.r.asif.507079",
+              },
               { icon: <FaGithub />, link: "https://github.com/samrat-xyz" },
-              { icon: <FaLinkedin />, link: "https://www.linkedin.com/in/md-samrat0/" },
+              {
+                icon: <FaLinkedin />,
+                link: "https://www.linkedin.com/in/md-samrat0/",
+              },
             ].map((item, i) => (
               <motion.a
                 whileHover={{ scale: 1.2 }}
@@ -78,7 +81,11 @@ export default function Contact() {
             <FaEnvelope className="text-3xl text-yellow-400" />
             <div>
               <h3 className="text-lg font-semibold">Email</h3>
-              <p className="text-gray-300">md.samrat61790@gmail.com</p>
+              <p className="text-gray-300">
+                <a href="mailto:md.samrat61790@gmail.com">
+                  md.samrat61790@gmail.com
+                </a>
+              </p>
             </div>
           </motion.div>
 
@@ -94,7 +101,12 @@ export default function Contact() {
             <FaWhatsapp className="text-3xl text-green-400" />
             <div>
               <h3 className="text-lg font-semibold">WhatsApp</h3>
-              <p className="text-gray-300">+8801861790495</p>
+              <p className="text-gray-300">
+                <a href="https://wa.me/8801861790495?text=Hello%20there!">
+                  +8801861790495
+                </a>
+                
+              </p>
             </div>
           </motion.div>
 
