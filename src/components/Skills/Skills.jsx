@@ -19,7 +19,7 @@ export default function Skill() {
   return (
     <section id="skills" className="max-w-6xl py-10 px-4 text-white mx-auto">
       <h2 className="text-4xl lg:text-5xl font-bold mb-10 text-center tracking-widest">
-        My <span className="text-yellow-400">Skills</span>
+         <span className="text-yellow-400">Skills</span>
       </h2>
 
       {/* FRONTEND */}
