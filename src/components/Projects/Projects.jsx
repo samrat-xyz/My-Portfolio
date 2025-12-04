@@ -76,7 +76,7 @@ function Projects() {
 
   return (
     <section id="projects" className="max-w-6xl mx-auto py-14 text-white px-4">
-      <h2 className="text-4xl lg:text-5xl font-bold text-center tracking-widest mb-14">
+      <h2 className="text-4xl lg:text-5xl font-bold text-center tracking-widest mb-14 uppercase">
         Latest <span className="text-yellow-400">Projects</span>
       </h2>
 
