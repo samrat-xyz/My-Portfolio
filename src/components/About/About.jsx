@@ -32,24 +32,28 @@ export default function About() {
         className="max-w-4xl space-y-6 text-center md:text-left"
       >
         <h3 className="text-2xl sm:text-3xl lg:text-4xl font-semibold text-gray-200">
-          React Developer
+          React & Next.js Developer
         </h3>
 
         <p className="text-gray-300 text-base sm:text-lg lg:text-xl leading-relaxed">
-          I'm a passionate React developer focused on building modern,
-          high-performance web applications. I create clean and user-friendly
-          interfaces that deliver a smooth user experience.
+          I'm a passionate Frontend Developer specializing in both React and
+          Next.js, focused on building modern, high-performance, and
+          SEO-friendly web applications. I create clean, fast, and user-friendly
+          interfaces that deliver an excellent user experience.
         </p>
 
         <p className="text-gray-300 text-base sm:text-lg lg:text-xl leading-relaxed">
-          I work with the latest tools, JavaScript standards, and React concepts
-          to develop scalable and efficient solutions. Problem-solving and UI
-          optimization are my core strengths.
+          I work with the latest JavaScript standards, React concepts, and
+          Next.js features like server-side rendering, static generation, and
+          API routes to build scalable, efficient, and production-ready
+          solutions. Problem-solving, performance optimization, and clean UI
+          design are my core strengths.
         </p>
 
         <p className="text-gray-300 text-base sm:text-lg lg:text-xl leading-relaxed">
-          Outside of coding, I explore new technologies, learn continuously, and
-          enjoy contributing to the developer community.
+          Outside of coding, I explore new technologies, continuously improve my
+          skills, and enjoy contributing to the developer community while
+          building real-world projects.
         </p>
       </motion.div>
     </section>
