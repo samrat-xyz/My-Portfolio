@@ -41,16 +41,16 @@ function Projects() {
       image:
         "https://i.ibb.co/yBRV3sFW/Screenshot-from-2025-12-01-23-28-14.png",
     },
-    {
-      name: "ClothMania",
-      small_summary:
-        "A fashion e-commerce website with cart, checkout and user auth.",
-      stacks: ["Next.js", "Express", "MongoDB","Firebase Auth"],
-      live_link: "https://cloth-mania-vert.vercel.app/",
-      repo: "https://github.com/samrat-xyz/Cloth-Mania",
-      image:
-        "https://i.ibb.co/wNzK61fB/Screenshot-from-2025-12-01-23-32-19.png",
-    },
+    // {
+    //   name: "ClothMania",
+    //   small_summary:
+    //     "A fashion e-commerce website with cart, checkout and user auth.",
+    //   stacks: ["Next.js", "Express", "MongoDB","Firebase Auth"],
+    //   live_link: "https://cloth-mania-vert.vercel.app/",
+    //   repo: "https://github.com/samrat-xyz/Cloth-Mania",
+    //   image:
+    //     "https://i.ibb.co/wNzK61fB/Screenshot-from-2025-12-01-23-32-19.png",
+    // },
   ];
 
   // Map stack names to icons
@@ -61,7 +61,7 @@ function Projects() {
   Tailwind: <SiTailwindcss size={20} className="text-teal-400" />,
   DaisyUI: <SiFirebase size={20} className="text-yellow-400" />,
   
-  // ✅ Next.js icons (support both variations)
+  // Next.js icons (support both variations)
   "Next.js": <SiNextdotjs size={20} className="text-white" />,
   NextJs: <SiNextdotjs size={20} className="text-white" />,
 
