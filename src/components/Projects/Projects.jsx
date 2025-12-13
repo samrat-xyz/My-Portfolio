@@ -46,7 +46,7 @@ function Projects() {
       small_summary:
         "LoanLink – Microloan Request & Approval Tracker System",
       stacks: ["React", "Express", "MongoDB","Firebase Auth"],
-      live_link: "https://loan-link-drab.vercel.app/",
+      live_link: "https://loan-link-web.netlify.app/",
       repo: "https://github.com/samrat-xyz/LoanLink",
       image:
         "https://i.ibb.co.com/6cFWfC58/Screenshot-from-2025-12-13-15-37-57.png",
