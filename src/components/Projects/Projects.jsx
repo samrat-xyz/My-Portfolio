@@ -41,16 +41,16 @@ function Projects() {
       image:
         "https://i.ibb.co/yBRV3sFW/Screenshot-from-2025-12-01-23-28-14.png",
     },
-    // {
-    //   name: "ClothMania",
-    //   small_summary:
-    //     "A fashion e-commerce website with cart, checkout and user auth.",
-    //   stacks: ["Next.js", "Express", "MongoDB","Firebase Auth"],
-    //   live_link: "https://cloth-mania-vert.vercel.app/",
-    //   repo: "https://github.com/samrat-xyz/Cloth-Mania",
-    //   image:
-    //     "https://i.ibb.co/wNzK61fB/Screenshot-from-2025-12-01-23-32-19.png",
-    // },
+    {
+      name: "LoanLink",
+      small_summary:
+        "LoanLink – Microloan Request & Approval Tracker System",
+      stacks: ["React", "Express", "MongoDB","Firebase Auth"],
+      live_link: "https://loan-link-drab.vercel.app/",
+      repo: "https://github.com/samrat-xyz/LoanLink",
+      image:
+        "https://i.ibb.co.com/6cFWfC58/Screenshot-from-2025-12-13-15-37-57.png",
+    },
   ];
 
   // Map stack names to icons
